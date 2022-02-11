@@ -3,20 +3,27 @@ label: about james
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: title
-- type: datetime
-  name: date
-  label: date
-- type: text
   name: thumbnail
   label: thumbnail
 - type: text
-  name: year
-  label: year
-- type: list
-  name: categories
-  label: categories
+  name: title
+  label: title
+- name: ok
+  type: blocks
+  label: Ok
+  template_types: []
+  config:
+    min: 
+    max: 
 - type: text
   name: description
-  label: description
+  label: "#theeastcoast"
+- name: _westcoastbestcoast
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: "#westcoastbestcoast"
