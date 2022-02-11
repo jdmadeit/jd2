@@ -8,13 +8,6 @@ fields:
 - type: text
   name: title
   label: title
-- name: ok
-  type: blocks
-  label: Ok
-  template_types: []
-  config:
-    min: 
-    max: 
 - type: text
   name: description
   label: "#theeastcoast"
